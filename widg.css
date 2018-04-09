@@ -11,12 +11,12 @@ main {
 		 }
 
 .area {
-	margin: 50px 0px 0 25px;
+	margin: 50px 20px 0 20px;
 	padding: 20px;
 	min-height: 100px;
 	min-width: 100px;
 
-	border: 1px solid red;
+	/*border: 1px solid red;*/
  }
 
 #intake {
@@ -26,6 +26,25 @@ main {
 
 #thing-maker {
 	flex-basis: 60%;
+}
+
+.thing {
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid darkslategrey;
+}
+
+.khaki {
+	background-color: khaki;
+}
+
+.lavender {
+	background-color: lavender;
+}
+
+.lightcoral {
+	background-color: lightcoral;
 }
 
 #rule-setter {

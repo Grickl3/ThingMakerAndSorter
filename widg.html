@@ -3,9 +3,6 @@
 <head>
 	<title>Experimental Widget</title>
 	<link rel="stylesheet" type="text/css" href="widg.css">
-	<style type="text/css">
-		
-	</style>
 </head>
 <body>
 	<main>
@@ -14,15 +11,16 @@
 	</main>
 	<div id="intake" class="form-section">
 		<div id="thing-maker" class="area">
-			<input type="text" name="name-thing" placeholder="name a thing">
+			<input type="text" name="name-thing" placeholder="name a thing" id="name-thing">
 			<div id="color-chooser" class="form-section">
 				<label for="color-thing">What color is your thing?</label>
 				<select name="color-thing" id="color-thing">
-					<option value="red">red</option>
-					<option value="yellow">yellow</option>
-					<option value="blue">blue</option>
+					<option value="khaki">khaki</option>
+					<option value="lavender">lavender</option>
+					<option value="lightcoral">lightcoral</option>
 				</select>
 			</div><!-- COLOR CHOOSER -->
+			<button id="make">Make Thing</button>
 		</div><!-- THING MAKER -->
 		<div id="rule-setter" class="area">
 		</div><!-- RULE SETTER -->
@@ -32,7 +30,31 @@
 
 	<script src="widg.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		
+		var nameThing = document.getElementById("name-thing");
+		var colorThing = document.getElementById("color-thing");
+		var make = document.getElementById("make");
+		var display = document.getElementById("display");
+
+		function makeThing(e) {
+			var name = nameThing.value;
+			var color = colorThing.value;
+
+			// var thing = '<div class="thing"><span class="thing-name' +
+			// 			color + '">' +
+			// 			name + '</span>' + '</div>'
+			// 			;
+
+			var thing = document.createElement("div");
+			thing.classList.add("thing");
+			thing.classList.add(color);
+			thing.innerHTML = '<span class="thing-name' +
+							color + '">' +
+							name + '</span>';
+
+			display.appendChild(thing);
+		}
+
+		make.addEventListener("click", makeThing);
 	</script>
 </body>
 </html>
