@@ -1,0 +1,37 @@
+main {
+			margin: 80px;
+		}
+
+		* {
+			font-family: Helvetica, sans-serif;
+		}
+
+		h6 { 
+			margin-top: -20px;
+		 }
+
+.area {
+	margin: 50px 0px 0 25px;
+	padding: 20px;
+	min-height: 100px;
+	min-width: 100px;
+
+	border: 1px solid red;
+ }
+
+#intake {
+	display: flex;
+	flex-direction: row;
+}
+
+#thing-maker {
+	flex-basis: 60%;
+}
+
+#rule-setter {
+	flex-basis: 30%;
+}
+
+.form-section {
+	margin: 30px 0;
+}

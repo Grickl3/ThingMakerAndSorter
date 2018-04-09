@@ -1,10 +1,10 @@
 # Widget
 I'ma build a little widget to experiment with. Woo-hoo!
 
-Really, I've been a pretty poor git user in the two years since joining GitHub and starting to use git. I actually just use it as a save system. I'm never even rolled back to a previous commit or merged branches. I've only actually ever used branching to experiment with ideas and then just gone back and worked on the main branch of my projects. I've also only used git locally in the command line. I've not done any collaborating or pushed and pulled even to my various machines and servers. It's pretty sad, right. 
+Okay, this README was previously about how I'm a novice at Git. Still true, but I'm getting it _(oof, sloppy pun)_. Onto the goods with this widget.
 
-So, as a way of bettering my Git-Fu I am currently adding content on my mobile-local machine, having cloned the repository via the command line. Next up, pushing back to Git Hub.
+I'm working on a project which I'll be posting soon which is a piece of business agnostic scheduling software. It will, at some length, allow any small business to schedule employees based on seniority and preference, _in that order_. 
 
-Okay, now - from my desktop-local machine I have cloned the repo. Added a file in which I'd like to build my widget, and pushed some changes back up to the repo on GH. I feel like I don't totally suck at this. That's cool.
+That program is getting kinda unweildy for working out some of the base logic. So, I'm making a toy program that is similar, but simpler. I have a notion that I may continually use this same widget to work out little logic play. So, I'm going to try to make something very general. Though, I won't go out of my way too far.
 
-Pulled some changes down to my mobile-local machine. I think I've done the essential things which I was missing. Now, I think I might actually make a little widget.
+GRK
