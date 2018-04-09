@@ -14,6 +14,32 @@
 		h6 { 
 			margin-top: -20px;
 		 }
+
+		.area {
+			margin: 50px 0px 0 25px;
+			padding: 20px;
+			min-height: 100px;
+			min-width: 100px;
+
+			border: 1px solid red;
+		 }
+
+		#intake {
+			display: flex;
+			flex-direction: row;
+		}
+
+		#thing-maker {
+			flex-basis: 60%;
+		}
+
+		#rule-setter {
+			flex-basis: 30%;
+		}
+
+		.form-section {
+			margin: 30px 0;
+		}
 	</style>
 </head>
 <body>
@@ -21,5 +47,22 @@
 		<h2>Here We Have an Experimental Widget</h2>
 		<h6>Or, it will be, soon.</h6>
 	</main>
+	<div id="intake" class="form-section">
+		<div id="thing-maker" class="area">
+			<input type="text" name="name-thing" placeholder="name a thing">
+			<div id="color-chooser" class="form-section">
+				<label for="color-thing">What color is your thing?</label>
+				<select name="color-thing" id="color-thing">
+					<option value="red">red</option>
+					<option value="yellow">yellow</option>
+					<option value="blue">blue</option>
+				</select>
+			</div><!-- COLOR CHOOSER -->
+		</div><!-- THING MAKER -->
+		<div id="rule-setter" class="area">
+		</div><!-- RULE SETTER -->
+	</div>
+	<div id="display" class="area">
+	</div><!-- DISPLAY -->
 </body>
 </html>

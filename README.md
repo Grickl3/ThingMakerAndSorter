@@ -6,3 +6,5 @@ Really, I've been a pretty poor git user in the two years since joining GitHub a
 So, as a way of bettering my Git-Fu I am currently adding content on my mobile-local machine, having cloned the repository via the command line. Next up, pushing back to Git Hub.
 
 Okay, now - from my desktop-local machine I have cloned the repo. Added a file in which I'd like to build my widget, and pushed some changes back up to the repo on GH. I feel like I don't totally suck at this. That's cool.
+
+Pulled some changes down to my mobile-local machine. I think I've done the essential things which I was missing. Now, I think I might actually make a little widget.
