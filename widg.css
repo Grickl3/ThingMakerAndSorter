@@ -10,6 +10,10 @@ main {
 			margin-top: -20px;
 		 }
 
+select {
+	margin: 10px;
+}
+
 .area {
 	margin: 50px 20px 0 20px;
 	padding: 20px;
@@ -35,17 +39,35 @@ main {
 	border: 1px solid darkslategrey;
 }
 
-.khaki {
-	background-color: khaki;
-}
+/* ================================== COLORS ========================= */
+	/*.khaki {
+		background-color: khaki;
+	}
 
-.lavender {
-	background-color: lavender;
-}
+	.lavender {
+		background-color: lavender;
+	}
 
-.lightcoral {
-	background-color: lightcoral;
-}
+	.lightcoral {
+		background-color: lightcoral;
+	}*/
+
+	.blue {
+		background-color: lightblue;
+	}
+
+	.green {
+		background-color: lightgreen;
+	}
+
+	.orange {
+		background-color: orange;
+	}
+
+	.yellow {
+		background-color: yellow;
+	}
+/* ================================== COLORS ========================= */
 
 #rule-setter {
 	flex-basis: 30%;
